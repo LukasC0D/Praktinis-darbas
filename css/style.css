@@ -96,10 +96,11 @@ img{
     top: 5%; right: 36%;
     padding: 2px 7px;
     border-radius: 50%;
+    
 }
 .four::before{
     content: "4";
-    border: 2px solid rgb(0, 102, 255);
+    border: 2px solid grey;
     background: white;
     color: grey;
     position: relative;
