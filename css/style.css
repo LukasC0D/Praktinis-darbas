@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+}
+.mainbox{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 50px;
+  
+    
+
+}
+.mainbox h2{
+    text-transform: uppercase;
+    color: red;
+}
+.box{
+    width: 15%;
+
+}
+.one img{
+    background: rgb(35, 196, 255);
+
+}
+.two img{
+    background-color: rgb(0, 102, 255);
+}
+.three img{
+    background: red;
+}
+.four img{
+    background:grey ;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.icon1{
+    position: relative; top: 15px; right: 5px;
+    width:  30px;
+    height: 30px;
+    border: 2px solid rgb(35, 196, 255);
+    background: white;
+    color: rgb(35, 196, 255);
+    border-radius: 50%;
+    padding: 3px 0px 0px 0px ;
+
+
+ 
+
+}
+.icon2{
+    position: relative; top: 15px; right: 5px;
+    width:  30px;
+    height: 30px;
+    border: 2px solid rgb(0, 102, 255);
+    background: white;
+    color: rgb(0, 102, 255);
+    border-radius: 50%;
+    padding: 3px 0px 0px 0px ;
+  
+}
+
+.icon3{
+    position: relative;top: 15px; right: 5px;
+    width:  30px;
+    height: 30px;
+    border: 2px solid red;
+    background: white;
+    color: red;
+    border-radius: 50%;
+    padding: 3px 0px 0px 0px ;
+  
+ 
+
+}
+.icon4{
+    position: relative;top: 15px;right: 5px;
+    width:  30px;
+    height: 30px;
+    border: 2px solid grey;
+    background: white;
+    color: grey;
+    border-radius: 50%;
+    padding: 3px 0px 0px 0px ;
+
+ 
+
+}
+
