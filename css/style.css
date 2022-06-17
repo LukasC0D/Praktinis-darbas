@@ -18,28 +18,36 @@ body{
     justify-content:space-around;
     border: 1px solid white;
     background-color: white;
-    width: 750px;
-    height: 400px;
+    width: 620px;
+    height: 320px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 
-}
-.box{
-  
 }
 .mainbox p{
-    line-height: 15px;
-    font-size: smaller;
-    color: grey;
+    line-height: 12px;
+    font-size: 7.5px;
+    color: rgb(91, 91, 91);
     margin: 0 20px;
+    font-family: 'Railway',sans-serif;
 }
 
-.mainbox h6{
+.mainbox h2{
     text-transform: uppercase;
     color: red;
-    font-size: 18px;
+    font-size: 12px;
     margin: 10px 0px;
+    font-family: 'roboto' ,sans-serif;
  
 }
+
+img{
+    width:115px;
+    height: 115px;
+}
+
 
 .one img{
     background: rgb(35, 196, 255);
@@ -48,6 +56,7 @@ body{
 
 .two img{
     background-color: rgb(0, 102, 255);
+
 }
 .three img{
     background: red;
@@ -55,62 +64,46 @@ body{
 .four img{
     background:grey ;
 }
-
-img{
-    width: 140px;
-    height: 140px;
-}
-
-.icon1{
-    position: relative; top: 15px; left: 5px;
-    width:  30px;
-    height: 30px;
+.one::before{
+    content: "1";
     border: 2px solid rgb(35, 196, 255);
     background: white;
     color: rgb(35, 196, 255);
+    position: relative;
+    top: 5%; right: 36%;
+    padding: 2px 7px;
     border-radius: 50%;
-    padding: 3px 0px 0px 0px ;
-
-
- 
 
 }
-.icon2{
-    position: relative; top: 15px; left: 15px;
-    width:  30px;
-    height: 30px;
+
+.two::before{
+    content: "2";
     border: 2px solid rgb(0, 102, 255);
-    background: white;
+    background:white;
     color: rgb(0, 102, 255);
+    position: relative;
+    top: 5%; right: 36%;
+    padding: 2px 7px  ;
     border-radius: 50%;
-    padding: 3px 0px 0px 0px ;
-  
+   
 }
-
-.icon3{
-    position: relative;top: 15px;left: 10px;
-    width:  30px;
-    height: 30px;
-    border: 2px solid red;
+.three::before{
+    content: "3";
+    border: 2px solid  red;
     background: white;
     color: red;
+    position: relative;
+    top: 5%; right: 36%;
+    padding: 2px 7px;
     border-radius: 50%;
-    padding: 3px 0px 0px 0px ;
-  
- 
-
 }
-.icon4{
-    position: relative;top: 15px;left: 12px;
-    width:  30px;
-    height: 30px;
-    border: 2px solid grey;
+.four::before{
+    content: "4";
+    border: 2px solid rgb(0, 102, 255);
     background: white;
     color: grey;
+    position: relative;
+    top: 5%; right: 36%;
+    padding: 2px 7px;
     border-radius: 50%;
-    padding: 3px 0px 0px 0px ;
-
- 
-
 }
-
