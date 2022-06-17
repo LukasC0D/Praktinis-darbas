@@ -11,7 +11,6 @@ body{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
 .mainbox{
     text-align: center;
     display: flex;
@@ -23,8 +22,6 @@ body{
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-
-
 }
 .mainbox p{
     line-height: 12px;
@@ -33,33 +30,42 @@ body{
     margin: 0 20px;
     font-family: 'Railway',sans-serif;
 }
-
 .mainbox h2{
     text-transform: uppercase;
     color: red;
     font-size: 12px;
     margin: 10px 0px;
     font-family: 'roboto' ,sans-serif;
- 
 }
-
 img{
     width:115px;
     height: 115px;
 }
 
-
-.one img{
-    background: rgb(35, 196, 255);
-
+.cimage{
+    color: white;
+    filter: invert(100%);
+} 
+.simage{
+    color: white;
+    filter: invert(100%);
 }
-
+.mimage{
+    filter: invert(100%);
+    color: white;
+} 
+.ccimage{
+    filter: invert(100%);
+    color: white;
+}
+.one img{
+    background:  rgba(255, 79, 35, 0.747);
+}
 .two img{
-    background-color: rgb(0, 102, 255);
-
+    background-color: rgb(250, 153, 0);
 }
 .three img{
-    background: red;
+    background: rgb(0, 255, 221);
 }
 .four img{
     background:grey ;
@@ -73,9 +79,8 @@ img{
     top: 5%; right: 36%;
     padding: 2px 7px;
     border-radius: 50%;
-
+    z-index: 1;
 }
-
 .two::before{
     content: "2";
     border: 2px solid rgb(0, 102, 255);
@@ -85,7 +90,7 @@ img{
     top: 5%; right: 36%;
     padding: 2px 7px  ;
     border-radius: 50%;
-   
+    z-index: 1;   
 }
 .three::before{
     content: "3";
@@ -96,7 +101,7 @@ img{
     top: 5%; right: 36%;
     padding: 2px 7px;
     border-radius: 50%;
-    
+    z-index: 1;  
 }
 .four::before{
     content: "4";
@@ -107,4 +112,5 @@ img{
     top: 5%; right: 36%;
     padding: 2px 7px;
     border-radius: 50%;
+    z-index: 1;
 }
