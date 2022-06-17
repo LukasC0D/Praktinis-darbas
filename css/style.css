@@ -87,7 +87,7 @@ img{
     background:white;
     color: rgb(0, 102, 255);
     position: relative;
-    top: 5%; right: 36%;
+    top: 5%; right: 34%;
     padding: 2px 7px  ;
     border-radius: 50%;
     z-index: 1;   
@@ -98,7 +98,7 @@ img{
     background: white;
     color: red;
     position: relative;
-    top: 5%; right: 36%;
+    top: 5%; right: 38%;
     padding: 2px 7px;
     border-radius: 50%;
     z-index: 1;  
