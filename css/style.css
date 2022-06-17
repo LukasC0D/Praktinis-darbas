@@ -72,9 +72,9 @@ img{
 }
 .one::before{
     content: "1";
-    border: 2px solid rgb(35, 196, 255);
+    border: 2px solid rgb(63, 202, 226);
     background: white;
-    color: rgb(35, 196, 255);
+    color: rgb(63, 202, 226);
     position: relative;
     top: 3.6%; right: 38%;
     padding: 2px 7px;
