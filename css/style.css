@@ -89,7 +89,7 @@ img{
 }
 .three::before{
     content: "3";
-    border: 2px solid  rgb(24, 24, 24);
+    border: 2px solid red;
     background: white;
     color: red;
     position: relative;
